@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_kmf_crypto_caller_policy">
+    <sys_kmf_crypto_caller_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <approval_type/>
+        <check_script_hash>false</check_script_hash>
+        <crypto_module display_value="com_glide_external_app_glideencrypter">df93a2415322201040d8ddeeff7b1251</crypto_module>
+        <crypto_spec display_value="com_glide_external_app_glideencrypter --- Symmetric Key Wrapping/Unwrapping">a393a2415322201040d8ddeeff7b1254</crypto_spec>
+        <granular_operation/>
+        <impersonation>false</impersonation>
+        <instance_recipient/>
+        <owner>ec6803d5dbcef3080b9d21c4059619fe</owner>
+        <policy_name>AutoGen-scope-x_777497_mygarage-global.com_glide_external_app_glideencrypter</policy_name>
+        <result>track</result>
+        <script_hash/>
+        <script_table/>
+        <signature_data/>
+        <specify_purpose>false</specify_purpose>
+        <sys_class_name>sys_kmf_crypto_caller_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-19 20:36:34</sys_created_on>
+        <sys_id>2bacb42f87d511102840eb173cbb35a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AutoGen-scope-x_777497_mygarage-global.com_glide_external_app_glideencrypter</sys_name>
+        <sys_package display_value="mygarage" source="x_777497_mygarage">1a65342b879511102840eb173cbb3505</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="mygarage">1a65342b879511102840eb173cbb3505</sys_scope>
+        <sys_update_name>sys_kmf_crypto_caller_policy_2bacb42f87d511102840eb173cbb35a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-19 20:36:34</sys_updated_on>
+        <target_role/>
+        <target_scope display_value="mygarage">1a65342b879511102840eb173cbb3505</target_scope>
+        <target_script/>
+        <type>3</type>
+        <used>false</used>
+    </sys_kmf_crypto_caller_policy>
+</record_update>

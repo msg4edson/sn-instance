@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_design_topic">
+    <sys_cb_design_topic action="INSERT_OR_UPDATE">
+        <compiled_topic display_value="_PRVW__abac302f55d511104950a2df6b16eac6">ebac302f87d511102840eb173cbb35c7</compiled_topic>
+        <design_definition>{"type":"FlowTopic","triggers":[{"type":"Trigger","name":"a8476a87e200440fbc9b88550058e859","triggerType":"request","applicability":{"type":"Applicability","mode":"script","value":"true"},"id":"a8476a87e200440fbc9b88550058e859"}],"goals":[{"name":"primary","trigger_id":"a8476a87e200440fbc9b88550058e859","nodes":[{"type":"StartGoal","goal_id":"primary","greeting_msg":{"type":"String","mode":"string","value":""},"id":"05895076dc2f48259c602a74cbec7b6e","name":"Start"},{"type":"TerminateGoal","goal_id":"primary","confirmation_msg":{"type":"String","mode":"string","value":""},"id":"70bc76e322084b7ba7ac266b7eb4ece9","name":"End"},{"type":"OutputPrompt","value":{"type":"String","mode":"string","value":"gs.getMessageLang(\"Varial heel is very cool.\", vaContext.getRequesterLang())"},"id":"16343c360025405f8ed75a12c56e3f95","name":"message","goal_id":"primary","applicability":{"type":"Applicability","mode":"script","value":"true"},"secure":false}],"edges":[{"type":"Edge","source_node_id":"05895076dc2f48259c602a74cbec7b6e","target_node_id":"16343c360025405f8ed75a12c56e3f95","id":"7c35569661454362afc6b48165d99b8f"},{"type":"Edge","source_node_id":"16343c360025405f8ed75a12c56e3f95","target_node_id":"70bc76e322084b7ba7ac266b7eb4ece9","id":"f56e5c4d47334ff6bb7b9f1a102cc429"}],"id":"primary"}],"script_variables":[],"glide_variables":[{"type":"Reference","table":"sys_user","id":"current-user","name":"user","formatType":"text","secure":false,"sensitive":false,"list":false}],"applicability":{"type":"Applicability","mode":"script","value":"true"},"roles":[],"scope":"1a65342b879511102840eb173cbb3505","domain":"global","topic_type":"STANDARD","channels":[],"id":"c20c30eb87d511102840eb173cbb3540","name":"_PRVW__abac302f55d511104950a2df6b16eac6","key_phrases":["Varial Heel"],"nlu_provider":"","nlu_model":"","nlu_model_label":"","nlu_intent":"","nlu_intent_label":"","flexible_conversation_switching":false,"autopilot_topic":true,"design_categories":[{"name":null,"visible":false,"sysId":"369bb0eb87d511102840eb173cbb35bd"}],"triggerable_by_notification":false,"library":false,"readOnly":false,"nluMapping":"[]"}</design_definition>
+        <design_topic_id>c20c30eb87d511102840eb173cbb3540</design_topic_id>
+        <name>_PRVW__abac302f55d511104950a2df6b16eac6</name>
+        <sys_class_name>sys_cb_design_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-19 20:36:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e7ac302f87d511102840eb173cbb35ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FlowTopic</sys_name>
+        <sys_package display_value="mygarage" source="x_777497_mygarage">1a65342b879511102840eb173cbb3505</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="mygarage">1a65342b879511102840eb173cbb3505</sys_scope>
+        <sys_update_name>sys_cb_design_topic_e7ac302f87d511102840eb173cbb35ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-19 20:36:33</sys_updated_on>
+        <type>FlowTopic</type>
+    </sys_cb_design_topic>
+</record_update>

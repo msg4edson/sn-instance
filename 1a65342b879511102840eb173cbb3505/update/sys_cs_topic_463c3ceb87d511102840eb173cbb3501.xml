@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic">
+    <sys_cs_topic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability>true</applicability>
+        <autopilot_topic>true</autopilot_topic>
+        <cb_topic_id display_value="Varial Heel">c20c30eb87d511102840eb173cbb3540</cb_topic_id>
+        <channels/>
+        <definition>{"id":"c20c30eb87d511102840eb173cbb3540","name":"Varial Heel","system_topic":false,"autopilot_topic":true,"vendor_id":"c2f0b8f187033200246ddd4c97cb0bb9","description":"Varial Heel","applicability":"true","categories":[],"key_phrases":["Varial Heel"],"variables":[{"name":"__segment_trigger_f4c8d7bdb93742ada219552ff8887720_done","type":"java.lang.Object","init_value":"false"},{"name":"previous_graph_node","type":"java.lang.Object"}],"fields":[{"type":"Reference","table_name":"sys_user","name":"user","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"Boolean","name":"RootDecisionBranch_4a3c3ceb2ad511108729716f81dbb700","unique":false,"default_value":"true","key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[]},{"type":"String","name":"__silent_StartGoal_05895076dc2f48259c602a74cbec7b6e","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Branch_RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_TerminateGoal_70bc76e322084b7ba7ac266b7eb4ece9","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_OutputPrompt_16343c360025405f8ed75a12c56e3f95","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true},{"type":"String","name":"__silent_Decision_RootDecision_c63c3ceb30d51110220f6911fffeb500","unique":false,"key_phrases":[],"mask_type":"NONE","list":false,"static_enum_list":[],"encrypt_if_secure":true}],"actions":[],"tasks":[{"type":"Consumer to system","show_as_button":true,"name":"primary","description":"primary","applicability":"vaVars.__segment_trigger_f4c8d7bdb93742ada219552ff8887720_done==false &amp;&amp; true","mode":"Qmode","key_phrases":[],"greeting_msg":"vaInputs.initialize(\"user\");vaInputs.initialize(\"RootDecisionBranch_4a3c3ceb2ad511108729716f81dbb700\");vaInputs.initialize(\"__silent_StartGoal_05895076dc2f48259c602a74cbec7b6e\");vaInputs.initialize(\"__silent_Decision_RootDecision_c63c3ceb30d51110220f6911fffeb500\");vaInputs.initialize(\"__silent_Branch_RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00\");vaInputs.initialize(\"__silent_TerminateGoal_70bc76e322084b7ba7ac266b7eb4ece9\");vaInputs.initialize(\"__silent_OutputPrompt_16343c360025405f8ed75a12c56e3f95\");null;","fields":[{"name":"__silent_Decision_RootDecision_c63c3ceb30d51110220f6911fffeb500","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_c63c3ceb30d51110220f6911fffeb500\";vaInputs.__silent_Decision_RootDecision_c63c3ceb30d51110220f6911fffeb500=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecision_for_goal_primary___RootDecision_c63c3ceb30d51110220f6911fffeb500\";var ackMsg=null;ackMsg=null;vaInputs.RootDecisionBranch_4a3c3ceb2ad511108729716f81dbb700=true;ackMsg;"},{"name":"__silent_Branch_RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00","applicable":"vaVars.previous_graph_node==\"RootDecision_for_goal_primary___RootDecision_c63c3ceb30d51110220f6911fffeb500\" &amp;&amp; ((vaInputs.RootDecisionBranch_4a3c3ceb2ad511108729716f81dbb700.getValue() == true))","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00___RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00\";vaInputs.__silent_Branch_RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00___RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_StartGoal_05895076dc2f48259c602a74cbec7b6e","applicable":"vaVars.previous_graph_node==\"RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00___RootDecisionBranch_0a3c3ceb00d511105c94b7923f0ddb00\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"Start___05895076dc2f48259c602a74cbec7b6e\";vaInputs.__silent_StartGoal_05895076dc2f48259c602a74cbec7b6e=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"Start___05895076dc2f48259c602a74cbec7b6e\";var ackMsg=null;ackMsg=null;ackMsg;"},{"name":"__silent_OutputPrompt_16343c360025405f8ed75a12c56e3f95","applicable":"vaVars.previous_graph_node==\"Start___05895076dc2f48259c602a74cbec7b6e\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"message___16343c360025405f8ed75a12c56e3f95\";vaInputs.__silent_OutputPrompt_16343c360025405f8ed75a12c56e3f95=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"message___16343c360025405f8ed75a12c56e3f95\";var ackMsg=null;ackMsg=(function execute() {return gs.getMessageLang(\"Varial heel is very cool.\", vaContext.getRequesterLang());})();ackMsg;","acknowledge_msg_mask_type":"NONE"},{"name":"__silent_TerminateGoal_70bc76e322084b7ba7ac266b7eb4ece9","applicable":"vaVars.previous_graph_node==\"message___16343c360025405f8ed75a12c56e3f95\"","direction":"Input","required":true,"prompt_msg":"vaVars.previous_graph_node=\"End___70bc76e322084b7ba7ac266b7eb4ece9\";vaInputs.__silent_TerminateGoal_70bc76e322084b7ba7ac266b7eb4ece9=true;null;","confirm_msg_on_default_value":{"msg":"","val_for_confirm":true},"nlu_text_input":false,"nlu_confirmation_prompt":false,"acknowledge_msg":"vaVars.previous_graph_node=\"End___70bc76e322084b7ba7ac266b7eb4ece9\";var ackMsg=null;ackMsg=null;vaVars.__segment_trigger_f4c8d7bdb93742ada219552ff8887720_done=true;ackMsg;"}],"variables_update":[]}],"roles":[],"active":true,"published":true,"library":false,"expose_on_palette":false,"palette_label":"","flexible_conversation_switching":false,"design_categories":[{"name":"Flatground","visible":true,"sysId":"369bb0eb87d511102840eb173cbb35bd"}],"nlu_provider":"","nlu_model":"","nlu_intent":"","topic_type":"STANDARD","channels":[],"triggerable_by_notification":false,"secure_custom_input_control":false,"score":0.0,"visible":true,"discoverable":true,"sys_scope":"1a65342b879511102840eb173cbb3505","sys_domain":"global","title":"Varial Heel","nlu_intent_label":"","nlu_model_label":""}</definition>
+        <design_category>369bb0eb87d511102840eb173cbb35bd</design_category>
+        <discoverable>true</discoverable>
+        <expose_on_palette>false</expose_on_palette>
+        <fields/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <is_system_topic>false</is_system_topic>
+        <key_phrases>Varial Heel</key_phrases>
+        <last_published_on>2022-08-19 20:34:32</last_published_on>
+        <library>false</library>
+        <library_usage>null</library_usage>
+        <metaphone>FRL HL</metaphone>
+        <name>Varial Heel</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <published>true</published>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <sys_class_name>sys_cs_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-19 20:34:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>463c3ceb87d511102840eb173cbb3501</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Varial Heel</sys_name>
+        <sys_package display_value="mygarage" source="x_777497_mygarage">1a65342b879511102840eb173cbb3505</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="mygarage">1a65342b879511102840eb173cbb3505</sys_scope>
+        <sys_update_name>sys_cs_topic_463c3ceb87d511102840eb173cbb3501</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-19 20:34:32</sys_updated_on>
+        <title>Varial Heel</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <visible>true</visible>
+    </sys_cs_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=463c3ceb87d511102840eb173cbb3501"/>
+</record_update>
